@@ -38,3 +38,42 @@ Toggle plugin on/off
 
 Select which environments should load the Hotjar script
 
+## 💻 Requirements
+Craft CMS 4.0+
+
+PHP 8.0+
+
+## 🧪 Local Development / Testing
+To test or contribute to the plugin locally:
+
+Clone the repository into your Craft project's root:
+
+```bash
+git clone git@github.com:bogdanarizancu/hotjar-craft-cms.git modules/hotjar
+```
+Add a local path repository entry in your composer.json:
+```json
+"repositories": [
+  {
+    "type": "path",
+    "url": "./modules/hotjar"
+  }
+]
+```
+
+Require it:
+```bash
+composer require bogdanarizancu/hotjar-craft-cms:@dev
+```
+Install it from the Craft CP.
+
+### 🧾 License
+MIT © Bogdan Arizancu
+
+### ☕ Support This Plugin
+
+This plugin is free and open source. If you find it helpful, consider supporting its development:
+
+👉 https://ko-fi.com/hotjarcraftcms
+
+Your support is deeply appreciated! ❤️
