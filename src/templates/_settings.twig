@@ -1,0 +1,25 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+  label: "Hotjar Site ID",
+  name: "hotjarId",
+  value: settings.hotjarId,
+  instructions: "Your Hotjar site ID (e.g., 1234567)"
+}) }}
+
+{{ forms.lightswitchField({
+  label: "Enable Hotjar",
+  name: "enabled",
+  on: settings.enabled
+}) }}
+
+{{ forms.checkboxSelectField({
+  label: "Load in Environments",
+  name: "environments",
+  options: {
+    'dev': 'Dev',
+    'staging': 'Staging',
+    'production': 'Production'
+  },
+  values: settings.environments
+}) }}

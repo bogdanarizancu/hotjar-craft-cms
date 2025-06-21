@@ -1,0 +1,13 @@
+{
+	"name": "bogdanarizancu/hotjar-craft-cms",
+	"description": "A Craft CMS plugin for Hotjar integration",
+	"type": "craft-plugin",
+	"require": {
+		"craftcms/cms": "^4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"bogdanarizancu\\hotjar\\": "src/"
+		}
+	}
+}

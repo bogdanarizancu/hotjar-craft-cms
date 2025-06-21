@@ -1,0 +1,13 @@
+/vendor/
+/.env
+/node_modules/
+.idea/
+.DS_Store
+/.vscode/
+/storage/
+*.log
+composer.lock
+/web/cpresources/
+/web/assets/
+.env.*
+/landing/.netlify/
