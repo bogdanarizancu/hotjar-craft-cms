@@ -15,14 +15,13 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"bogdanarizancu\\hotjar\\": "src/"
+			"bogdanarizancu\\hotjarcraftcms\\": "src/"
 		}
 	},
 	"extra": {
-		"pluginClass": "bogdanarizancu\\hotjarcraftcms\\HotjarCraftCms",
 		"name": "Hotjar for Craft CMS",
 		"handle": "hotjar-craft-cms",
-		"hasCpSettings": false,
-		"hasCpSection": false
+		"hasCpSettings": true,
+		"hasCpSection": true
 	}
 }

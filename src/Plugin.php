@@ -3,16 +3,16 @@
 namespace bogdanarizancu\hotjarcraftcms;
 
 use Craft;
-use craft\base\Plugin;
+use craft\base\Plugin as BasePlugin;
 use bogdanarizancu\hotjarcraftcms\models\Settings;
 use bogdanarizancu\hotjarcraftcms\services\HotjarService;
 use yii\base\Event;
 use craft\web\View;
 
-class HotjarCraftCms extends Plugin
+class Plugin extends BasePlugin
 {
 	public bool $hasCpSettings = true;
-	public static HotjarCraftCms $plugin;
+	public static Plugin $plugin;
 
 	public function init(): void
 	{
