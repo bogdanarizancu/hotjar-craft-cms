@@ -1,4 +1,5 @@
 <?php
+
 namespace bogdanarizancu\hotjarcraftcms;
 
 use Craft;

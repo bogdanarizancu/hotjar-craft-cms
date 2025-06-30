@@ -19,7 +19,7 @@
 		}
 	},
 	"extra": {
-		"pluginClass": "hotjar\\HotjarPlugin",
+		"pluginClass": "bogdanarizancu\\hotjarcraftcms\\HotjarCraftCms",
 		"name": "Hotjar for Craft CMS",
 		"handle": "hotjar-craft-cms",
 		"hasCpSettings": false,
