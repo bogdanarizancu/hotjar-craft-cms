@@ -1,15 +1,16 @@
 <?php
+
 namespace bogdanarizancu\hotjarcraftcms\services;
 
 use Craft;
 use craft\base\Component;
-use bogdanarizancu\hotjarcraftcms\HotjarCraftCms;
+use bogdanarizancu\hotjarcraftcms\Plugin as HotjarPlugin;
 
 class HotjarService extends Component
 {
 	public static function injectScript(): void
 	{
-		$settings = HotjarCraftCms::getInstance()->getSettings();
+		$settings = HotjarPlugin::getInstance()->getSettings();
 		$env = Craft::$app->env;
 
 		if (!$settings->enabled || !in_array($env, $settings->environments)) {
