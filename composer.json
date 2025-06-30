@@ -19,8 +19,9 @@
 		}
 	},
 	"extra": {
-		"name": "Hotjar",
-		"handle": "hotjar",
+		"pluginClass": "hotjar\\HotjarPlugin",
+		"name": "Hotjar for Craft CMS",
+		"handle": "hotjar-craft-cms",
 		"hasCpSettings": false,
 		"hasCpSection": false
 	}
